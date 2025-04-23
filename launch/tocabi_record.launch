@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="tocabi_logger" pkg="tocabi_logger" type="tocabi_logger" output="screen" required="true"></node>
+    <node name="record_gui" pkg="tocabi_logger" type="record_gui.py" output="screen" required="true"></node>
+</launch>
