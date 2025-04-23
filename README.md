@@ -3,7 +3,10 @@
 A ROS (ROS1 Noetic) package for logging shared memory data to text files, controlled via a Qt-based Python GUI. Users can enter a filename, start/stop recording with dedicated buttons, and see status updates in real-time.
 
 ## Features
-![Tocabi Logger GUI](scripts/icon/gui.png)
+<p align="center">
+  <img src="scripts/icons/gui.png" alt="Tocabi Logger GUI" />
+</p>
+![Tocabi Logger GUI](scripts/icons/gui.png)
 - **Data Logging Node** (`tocabi_logger_node`)
   - Subscribes to shared memory and logs specified fields to a text file.
   - Controlled via ROS topics: filename and start/stop toggle.
