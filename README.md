@@ -71,9 +71,10 @@ or you can change the directory
  │   └── icons/             # button and window icons
  │       ├── rec.png
  │       ├── stop.png
- │       └── delete.png
+ │       ├── tocabi_rec.png
+ │       └── gui.png
  └── launch/                # optional launch files
-     └── tocabi_logging.launch
+     └── tocabi_record.launch
 ```
 
 ## Troubleshooting
